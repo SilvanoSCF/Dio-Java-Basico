@@ -19,7 +19,7 @@ public class operadores {
 
         String valores = "Soma: " + soma + ", Subtração " + subtracao;
 
-        System.out.println(valores);
+       // System.out.println(valores);
     }
 
 }
