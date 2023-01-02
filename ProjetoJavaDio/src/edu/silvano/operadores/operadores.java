@@ -20,6 +20,49 @@ public class operadores {
         String valores = "Soma: " + soma + ", Subtração " + subtracao;
 
         System.out.println(nome + valores + multiplicacao + divisao + modulo + resultado);
+
+        // Unários
+        // + operador unário de valor positivo - numeros são positivos sem esse operador
+        // explicitamente;
+        // - operador de valor negativo nega um numero ou expressão aritmética
+        // ++ operador de incremento de valor incrementando o valor de 1 unidade
+        // -- operador de decrementação de valor , subtraindo o valor de 1 unidade
+        // ! operador unário logico de negação - nega o valor de uma expressão booleana;
+
+        int n1 = 5;
+
+        System.out.println(++n1); // Atribuindo valor
+
+        boolean varia001 = true;
+
+        System.out.println(!varia001); // invertendo a logica de True para false
+
+        // Operador ternário
+
+        // O operador ternário é uma forma de resumida para definir uma condiçãi e
+        // escolher por um dentre dois valores
+        // como se fosse uma condição if normal, porem de uma forma em que toda a sua
+        // estrutura estrará escrita numa unica linha.
+        // : ?
+        // <expressão condicional> ? <caso condição seja true> : <caso condição seja
+        // false>
+
+        // Exemplo if else comum
+
+        int a = 5;
+        int b = 6;
+
+        if (a == b) {
+            System.out.println("verdadeiro");
+        } else {
+            System.out.println("Falso");
+        }
+
+        // condição com operador ternário
+
+        String resultado001 = a == b ? "verdadeiro" : "falso";
+        System.out.println(resultado001);
+
     }
 
 }
