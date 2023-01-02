@@ -33,6 +33,9 @@ public class variaveisPrimitivas {
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal; // Convertendo para um tipo mais especifico - Casting
 
+        System.out.println(numero4 + numero8 + numero2 +
+                numeral + numeal2 + numero1 + numeroCurto + numeroCurto2 + numeroNormal + texto01 + VALOR_DE_PI);
+
     }
 
 }
