@@ -63,8 +63,30 @@ public class operadores {
         String resultado001 = a == b ? "verdadeiro" : "falso";
         System.out.println(resultado001);
 
-        // Operadores?
+        // Comparação
 
+        String nomeUm = "Silvano";
+
+        String nomeDois = new String("Silvano"); // Uma no string
+
+        System.out.println("Resultado");
+
+        System.out.println(nomeUm.equals(nomeDois)); // Logic true or false comparando se o valor é igual nos dois
+
+        // Operadores Logicos
+
+        // && Operador Lógico "E"
+        // || Operador Lógico "OU"
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+        if (condicao1 || condicao2){
+            System.out.println("Uma das duas condições é verdadeira");
+        }
 
     }
 
