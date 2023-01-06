@@ -12,6 +12,8 @@ public class MainMetodos {
 
         sm.desligar();
 
+        sm.ligar();
+
     }
 
 }
