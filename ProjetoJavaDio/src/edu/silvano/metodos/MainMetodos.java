@@ -10,9 +10,18 @@ public class MainMetodos {
         System.out.println("Tv ligada ? " + sm.canal);
         System.out.println("Tv ligada ? " + sm.volume);
 
-        sm.desligar();
+        // sm.desligar();
 
         sm.ligar();
+
+        // sm.status();
+
+        sm.almentarVolume();
+        sm.almentarVolume();
+        sm.almentarVolume();
+        sm.almentarVolume();
+        sm.almentarVolume();
+        sm.diminuirVolume();
 
     }
 
