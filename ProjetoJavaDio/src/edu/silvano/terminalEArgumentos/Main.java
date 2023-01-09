@@ -1,11 +1,13 @@
 package edu.silvano.terminalEArgumentos;
 
-public class Main {
+public class Main { 
+    
+
 
     public static void main(String[] args) {
 
         // Utilização do cmd
-
+        /* 
         String nome = args[0];
         String sobrenome = args[1];
         int idade = Integer.valueOf(args[2]);
@@ -14,6 +16,14 @@ public class Main {
         System.out.println("Ola me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + "anos");
         System.out.println("Minha altura é: " + altura + "cm");
+
+        */
+  
+        
+        
+
+        Calculadora calc = new Calculadora();
+        System.out.println(calc.somar(2, 3));
 
     }
 
