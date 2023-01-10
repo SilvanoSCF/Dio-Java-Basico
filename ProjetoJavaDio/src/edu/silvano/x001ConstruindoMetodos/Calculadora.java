@@ -12,12 +12,13 @@ package edu.silvano.x001ConstruindoMetodos;
  * 
  */
 public class Calculadora {
-  /**
+
+     /**
   * Este Método é utilizado para somar dois numeros inteiros
   * 
   * @param numero1 este é o primeiro parametro do metodo
   * @param numero2 este é o segundo parametro do metodo
-  * @return resultado impresso pela variavel <b>resultado </b> que realiza a soma dos valores de numero1 e numero2
+  * @return resultado impresso pela variavel <b>resultado </b> que realiza a soma dos valores de numero1
   */
     public static void soma(double numero1, double numero2) {
 
