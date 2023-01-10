@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Utilização do cmd
-        /* 
+         
         String nome = args[0];
         String sobrenome = args[1];
         int idade = Integer.valueOf(args[2]);
@@ -17,8 +17,7 @@ public class Main {
         System.out.println("Tenho " + idade + "anos");
         System.out.println("Minha altura é: " + altura + "cm");
 
-        */
-  
+          
         
         
 
