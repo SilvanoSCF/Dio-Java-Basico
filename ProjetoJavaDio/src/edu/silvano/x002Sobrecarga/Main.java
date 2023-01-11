@@ -20,9 +20,22 @@ public class Main {
 
         /*
          * Observação
-         * quando tivermos duas sobrecargas com a mesma quantidade de parametros, os tipos de dados devem ser diferentes para a diferenciação
+         * quando tivermos duas sobrecargas com a mesma quantidade de parametros, os
+         * tipos de dados devem ser diferentes para a diferenciação
          * no caso da area do retangulo e losangulo
          */
+
+        // exemplos com retornos
+
+        System.out.println(" Aqui exemplos de retornos específicos");
+
+        System.out.println(retornos.area(2));
+
+        System.out.println(retornos.area(6, 5, 4));
+
+        System.out.println(retornos.area(2f, 4f));
+
+        System.out.println(retornos.area(3, 4));
 
     }
 
