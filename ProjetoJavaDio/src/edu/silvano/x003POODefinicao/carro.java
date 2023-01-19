@@ -68,6 +68,6 @@ public class carro {
         this.capacidadeTanque = capacidadeTanque;
         this.cor = cor;
         this.modelo = modelo;
-    }
+    } // Carro.r
 
 }
