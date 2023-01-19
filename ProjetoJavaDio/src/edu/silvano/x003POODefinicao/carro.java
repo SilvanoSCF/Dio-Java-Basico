@@ -68,6 +68,10 @@ public class carro {
         this.capacidadeTanque = capacidadeTanque;
         this.cor = cor;
         this.modelo = modelo;
-    } // Carro.r
+    } // Classe x Objeto
+    // Classe é algo estático, um molde
+    // Objeto é um conceito, entidade do mundo real
+
+    
 
 }
