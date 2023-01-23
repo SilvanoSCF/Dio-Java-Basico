@@ -1,5 +1,8 @@
 package edu.silvano.x006Interface;
-
+/**
+ * <h1>Calculadora</h1>
+ * Exemplo para mostrar Metodos vindos de intefaces
+ */
 public class Calculadora implements OperacaoMatematica{
 
     
