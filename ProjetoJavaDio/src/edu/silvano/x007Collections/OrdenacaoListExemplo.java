@@ -1,6 +1,7 @@
 package edu.silvano.x007Collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class OrdenacaoListExemplo {
@@ -18,6 +19,17 @@ public class OrdenacaoListExemplo {
     System.out.println("Gatos: ");
 
     System.out.println(gatos.toString());
+
+    System.out.println("Ordem Aleatória");
+    Collections.shuffle(gatos);
+    System.out.println(gatos);
+    System.out.println("------------------------");
+    System.out.println("Ordem Natural");
+    Collections.sort(gatos, null);
+    System.out.println(gatos);
+    System.out.println("------------------------");
+
+
     
 
     
