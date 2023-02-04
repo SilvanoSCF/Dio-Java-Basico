@@ -1,6 +1,8 @@
 package edu.silvano.x007Collections;
 
-public class Gato {
+
+
+public class Gato implements Comparable<Gato>{
 
     private String nome;
     private String cor;
@@ -54,6 +56,10 @@ public class Gato {
         return "Nome: " + getNome() + " Cor: " + getCor() + " Idade: " + idade;
 
 
+    }
+
+    public int compareTo(Gato gato){
+        return this.getNome().compareToIgnoreCase(gato.getNome());
     }
     
     
