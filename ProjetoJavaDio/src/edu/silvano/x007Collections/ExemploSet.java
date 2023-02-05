@@ -56,7 +56,7 @@ public class ExemploSet {
         notas2.add(7d);
         notas2.add(8.5);
         notas2.add(9.3);
-        notas2.add(5d);
+        notas2.add(5d);// 
         notas2.add(0d);
         notas2.add(3.6);
         System.out.println(notas2);
