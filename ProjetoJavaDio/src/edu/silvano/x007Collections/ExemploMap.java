@@ -35,6 +35,12 @@ public class ExemploMap {
          * }}
          * ;
          */
+        carrosPopulares.put("gol", 14.4);
+        carrosPopulares.put("uno", 15.6);
+        carrosPopulares.put("mobi", 16.1);
+        carrosPopulares.put("hb20", 14.5);
+        carrosPopulares.put("kwid", 15.6);
+
         System.out.println(carrosPopulares.toString());
 
         System.out.println("Substitua o consumo do gol por 15,2 km/l: ");
@@ -111,6 +117,12 @@ public class ExemploMap {
          * }
          * };
          */
+
+         carrosPopulares1.put("gol", 14.4);
+         carrosPopulares1.put("uno", 15.6);
+         carrosPopulares1.put("mobi", 16.1);
+         carrosPopulares1.put("hb20", 14.5);
+         carrosPopulares1.put("kwid", 15.6);
         System.out.println(carrosPopulares1.toString());
 
         System.out.println("Exiba o dicionário ordenado pelo modelo: ");
