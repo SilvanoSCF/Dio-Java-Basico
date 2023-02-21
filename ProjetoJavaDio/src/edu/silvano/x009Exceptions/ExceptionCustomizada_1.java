@@ -41,6 +41,7 @@ public class ExceptionCustomizada_1 {
             return new BufferedReader(new FileReader(nomeDoArquivo));
         } catch (FileNotFoundException e) {
             throw new ImpossivelAberturaDeArquivoException(file.getName(), file.getPath());
+            //e.printStackTrace();
         }
     }
 }
