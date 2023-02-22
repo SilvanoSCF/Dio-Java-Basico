@@ -22,11 +22,11 @@ public class ExceptionCustomizada_1 {
                 line = br.readLine();
             } while (line != null);
             bw.flush();
-            br.close();
+            br.close();//
         } catch (ImpossivelAberturaDeArquivoException e) {
             JOptionPane.showMessageDialog(null,
                     e.getMessage());
-            //e.printStackTrace();
+            // e.printStackTrace();
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(null,
                     "Ocorreu um erro não esperado, por favor, fale com o suporte." + ex.getMessage());
@@ -41,7 +41,7 @@ public class ExceptionCustomizada_1 {
             return new BufferedReader(new FileReader(nomeDoArquivo));
         } catch (FileNotFoundException e) {
             throw new ImpossivelAberturaDeArquivoException(file.getName(), file.getPath());
-            //e.printStackTrace();
+            // e.printStackTrace();
         }
     }
 }
@@ -57,12 +57,14 @@ class ImpossivelAberturaDeArquivoException extends Exception {
         this.diretorio = diretorio;
     }
 
-    /*@Override
-    public String toString() {
-        return "ImpossivelAberturaDeArquivoException{" +
-                "nomeDoArquivo='" + nomeDoArquivo + '\'' +
-                ", diretorio='" + diretorio + '\'' +
-                '}';
-    }*/
-    
+    /*
+     * @Override
+     * public String toString() {
+     * return "ImpossivelAberturaDeArquivoException{" +
+     * "nomeDoArquivo='" + nomeDoArquivo + '\'' +
+     * ", diretorio='" + diretorio + '\'' +
+     * '}';
+     * }
+     */
+
 }
