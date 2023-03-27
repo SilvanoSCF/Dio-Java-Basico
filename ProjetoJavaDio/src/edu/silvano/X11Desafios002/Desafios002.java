@@ -3,7 +3,7 @@ package edu.silvano.X11Desafios002;
 import java.util.Scanner;
 //
 
-public class Desafios002 { // Desafio
+public class Desafios002 { // Desafio 002 
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         
